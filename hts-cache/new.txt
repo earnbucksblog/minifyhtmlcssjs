@@ -1,5 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-08:55:11	25/25	---M--	200	added ('OK')	text/plain	etag:%2219-5673a46fa76de%22	http://gh-export.us/robots.txt		(from )
-08:55:11	3544/3544	---M-Z	200	added ('OK')	text/html	date:Mon,%2028%20Oct%202019%2003:20:14%20GMT	http://gh-export.us/code_minifier/	C:/My%20Web%20Sites/Html%20Css%20Js%20Minify/gh-export.us/code_minifier/index.html	(from )
-08:55:12	93100/93100	---MC-	200	added ('OK')	text/javascript	date:Tue,%2020%20Dec%202016%2018:17:03%20GMT	https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js	C:/My%20Web%20Sites/Html%20Css%20Js%20Minify/ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js	(from http://gh-export.us/code_minifier/)
-08:55:13	80976/80976	---MCZ	200	added ('OK')	application/javascript	etag:W/%2213c50-59407f25cf2b5%22	https://static.addtoany.com/menu/page.js	C:/My%20Web%20Sites/Html%20Css%20Js%20Minify/static.addtoany.com/menu/page.js	(from http://gh-export.us/code_minifier/)
