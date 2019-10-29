@@ -137,14 +137,3 @@
   };
 })();
 
-
-(function(i){
-  var s = document.getElementById(i);
-  var f = document.createElement('iframe');
-  f.src = (document.location.protocol === 'https:' ? 'https' : 'http') + '://api.flattr.com/button/view/?uid=kangax&button=compact&url=' + encodeURIComponent(document.URL);
-  f.title = 'Flattr';
-  f.height = 20;
-  f.width = 110;
-  f.style.borderWidth = 0;
-  s.parentNode.insertBefore(f, s);
-})('wrapper');
