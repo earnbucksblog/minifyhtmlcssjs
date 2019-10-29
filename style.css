@@ -224,7 +224,7 @@ tr:last-child td.last {
 
 
 @media (max-width: 991px) {
-  .button {
+  .gradient-button {
     width: 90%;
   }
   .subtitle {
@@ -248,7 +248,7 @@ tr:last-child td.last {
   	margin: 8px 0px 18px;
   	line-height: 44px;
   }
-  .button {
+  .gradient-button {
     width: 100%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
