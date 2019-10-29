@@ -3,9 +3,40 @@
  <head>
     <title>HTML CSS JS Minifier</title>  
   <meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Webflow" name="generator">
-  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
+  
+ 
+  </head>
+  <body>
+  	<!-- Style Here For UI -->
+  	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- Style Here For UI -->
+  <div class="header-section"><div class="container w-container">
+  <h1>HTML CSS JS Minifier</h1><p class="subtitle">Instantly reduce the size of your html code, javascript and css files, make your websites load faster</p>
+  <div class="sign-up-form w-form">
+  <form class="w-clearfix" id="formSubmit" data-name="Signup Form" name="wf-form-signup-form" data-sticky="stickyID0" action="http://gh-export.us/code_minifier/index.php" method="post">
+
+	<select name="type" id="select" class="field w-input">
+	<optgroup label="Select Code Type">
+<option value="css">CSS</option>
+<option value="html">HTML</option>
+<option value="js">JavaScript</option>		
+	</optgroup>
+	</select>	
+	<textarea class="field w-input" name="code" rows="10" placeholder="PASTE YOUR CODE HERE..." required></textarea>
+<input type="submit" value="Minify" class="button w-button">	
+</form>
+<div style="display:none;" id="loading" align="center">
+	<h3>Please wait the code is being minified...</h3>
+</div>
+<div id="results"></div>
+</div></div></div>
+
+
+
+<!-- Scripts Here For Speed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript">		
 		$(document).ready(function(){
 			$("#formSubmit").submit(function() {
@@ -33,29 +64,7 @@
 		});
 
 		
-  </script>   
-  </head>
-  <body>
-  
-  <div class="header-section"><div class="container w-container">
-  <h1>HTML CSS JS Minifier</h1><p class="subtitle">Instantly reduce the size of your html code, javascript and css files, make your websites load faster</p>
-  <div class="sign-up-form w-form">
-  <form class="w-clearfix" id="formSubmit" data-name="Signup Form" name="wf-form-signup-form" data-sticky="stickyID0" action="http://gh-export.us/code_minifier/index.php" method="post">
-
-	<select name="type" id="select" class="field w-input">
-	<optgroup label="Select Code Type">
-<option value="css">CSS</option>
-<option value="html">HTML</option>
-<option value="js">JavaScript</option>		
-	</optgroup>
-	</select>	
-	<textarea class="field w-input" name="code" rows="10" placeholder="PASTE YOUR CODE HERE..." required></textarea>
-<input type="submit" value="Minify" class="button w-button">	
-</form>
-<div style="display:none;" id="loading" align="center">
-	<h3>Please wait the code is being minified...</h3>
-</div>
-<div id="results"></div>
-</div></div></div>
+  </script>  
+  <!-- Scripts Here For Speed -->
 </body>
 </html>
