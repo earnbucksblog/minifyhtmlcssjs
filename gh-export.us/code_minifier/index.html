@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-opensans-n3-active wf-opensans-i3-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-i6-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-n8-active wf-opensans-i8-active wf-petitformalscript-n4-active wf-active">
+<!-- Mirrored from gh-export.us/code_minifier/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2019 03:25:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HTML CSS JS Minifier</title>  
+  <meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Webflow" name="generator">
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+  <link href="http://gh-export.us/code_minifier/style.css" rel="stylesheet" type="text/css">
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">		
+		$(document).ready(function(){
+			$("#formSubmit").submit(function() {
+				$.ajax({
+					type: "POST",
+					url: "ajax.php",
+					data: $("#formSubmit").serialize(),
+					beforeSend: function(XMLHttpRequest){
+						var overlay = $('<div id="overlay"></div>');
+						overlay.appendTo(document.body);
+						$("#loading").css('display','inline');
+						$('#results').empty();	
+					}, 
+					success: function(data){
+						$("#loading").css('display','none');
+						$('#results').append(data);
+						$("#overlay").remove();	
+						$('html, body').animate({scrollTop: $("#textarea").offset().top}, 300);		
+					}
+				});
+		
+				return false;
+			});
+			
+		});
+
+		
+  </script>   
+  </head>
+  <body>
+  <div class="bars-wrapper w-clearfix"><div class="bar"></div><div class="_2 bar"></div><div class="_3 bar"></div><div class="_4 bar"></div><div class="_5 bar"></div><div class="_6 bar"></div><div class="bar"></div></div>
+  <div class="header-section"><div class="container w-container">
+  <h1>HTML CSS JS Minifier</h1><p class="subtitle">Instantly reduce the size of your html code, javascript and css files, make your websites load faster</p>
+  <div class="sign-up-form w-form">
+  <form class="w-clearfix" id="formSubmit" data-name="Signup Form" name="wf-form-signup-form" data-sticky="stickyID0" action="http://gh-export.us/code_minifier/index.php" method="post">
+
+	<select name="type" id="select" class="field w-input">
+	<optgroup label="Select Code Type">
+<option value="css">CSS</option>
+<option value="html">HTML</option>
+<option value="js">JavaScript</option>		
+	</optgroup>
+	</select>	
+	<textarea class="field w-input" name="code" rows="10" placeholder="PASTE YOUR CODE HERE..." required></textarea>
+<input type="submit" value="Minify" class="button w-button">	
+</form>
+<div style="display:none;" id="loading" align="center">
+	<h3>Please wait the code is being minified...</h3>
+</div>
+<div id="results"></div>
+</div></div></div><div class="social-section">
+<div class="w-container">
+<h2>Speed up your web pages!</h2>
+<div class="refer">
+Use the buttons below to share.
+</div><div class="share-wrapper">
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="my_centered_buttons">
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_google_plus"></a>
+    <a class="a2a_button_pinterest"></a>
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+</div>
+
+<script async src="../../static.addtoany.com/menu/page.js"></script>
+
+</div></div></div><div class="footer-section"><div class="w-container"><div class="w-row"><div class="w-col w-col-6 w-col-small-6"><div class="copyright">&copy;. All right reserved.&nbsp;</div></div></div></div></div>
+</body>
+<!-- Mirrored from gh-export.us/code_minifier/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2019 03:25:13 GMT -->
+</html>
